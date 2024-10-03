@@ -1,8 +1,15 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(211, 206, 212);
-    margin-left: 50px;
-    margin-right: 50px;
+}
+
+body {
+    margin: 12px;
+}
+
+.box-img {
+    width: 600px;
+    margin: 0 auto;
 }
 
 .recipeList {
@@ -23,11 +30,10 @@
 }
 
 img {
-    height: auto;
     width: 600px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
+
+
 
 h1, h2, h3 {
 
@@ -45,4 +51,5 @@ h1 {
 p, li {
     text-align: justify;
     margin-bottom: 10px;
+    padding: 15px;
 }
